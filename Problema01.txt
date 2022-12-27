@@ -1,0 +1,50 @@
+1. Inicio
+2. Funcion principal
+3.    lado, i[0-n]
+4.    altura, i[0-n]
+5.    base, i[0-n]
+6.    opcion, i[0-n]
+7.    resultado, i[0-n]
+8.    <<"Ingrese 1 para area de cuadrado, 2 para area de triangulo o 3 para area de rectangulo"
+9.    >> opcion
+10.    Si(opcion==1) entonces
+11.	 <<"Ingrese el valor de lado"
+12.	 >> lado
+13.      resultado->obtenerAreaCuadrado(lado)
+14.	 <<resultado
+15.   FinSi
+16.   Si(opcion==2) entonces
+17.	 <<"Ingrese valor de altura"
+18.	 >>altura
+19.	 <<"Ingrese valor de base"
+20.	 >>base
+21.	 resultado->obtenerAreaTriangulo(altura, base)
+22.	 <<resultado
+23.   FinSi
+24.   Si(opcion==3) entonces
+25.	 <<"Ingrese valor de altura"
+26.	 >>altura
+27.	 <<"Ingrese valor de base"
+28.	 >>base
+29.	 resultado->obtenerAreaTriangulo(altura,base)
+30.	 <<resultado
+31.   FinSi
+32. FinFuncion principal
+33. Funcion obtenerAreaCuadrado(lado,i):i
+34.      area, i[0-n]
+35.      area<-lado*lado*lado*lado
+36.	 retorno area
+37. FinFuncion obtenerAreaCuadrado
+38. Funcion obtenerAreaTriangulo(altura,i;base,i):i
+39.	 area, i[0-n]
+40.	 multiplicacion, i[0-n]
+41.	 multiplicacion<-base*altura
+42.	 area<-multplicacion/2
+43.	 retorno area
+44. FinFuncion obtenerAreaCuadrado
+45. Funcion obtenerAreaRectangulo(base,i;altura,i):i
+46.	 area, i[0-n]
+47.	 area<-base*altura
+48.	 retorno area
+49. FinFuncion obtenerAreaRectangulo
+50. Fin   

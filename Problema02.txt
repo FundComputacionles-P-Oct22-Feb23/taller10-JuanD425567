@@ -1,0 +1,39 @@
+1. Inicio
+2. funcion principal()
+3.    valor1, d[0-n]
+4.    valor2, d[0-n]
+5.    valor3, d[0-n]
+6.    valor4, d[0-n]
+7.    <<"Ingrese el primer valor"
+8.    >>valor1
+9.    <<"Ingrese el segundo valor"
+10.   >>valor2
+11.   <<"Ingrese el tercer valor"
+12.   >>valor3
+13.   <<"Ingrese el cuarto valor"
+14.   >>valor4
+15.   resultado, d[0-n]
+16.   resultado <-promedio(valor1,valor2,valor3,valor4)
+17.   <<"El promedio de las notas:"+valor1+valor2+valor3+valor4+"es "+mensaje
+18. FinFuncion principal
+19. funcion promedio(valor1,d;valor2,d;valor3,d;valor4,d):x(999)[{a-z}{A-Z}]
+20.   suma, d[0-n]
+21.   suma<-valor1+valor2+valor3+valor4
+22.   promedio, d[0-n]
+23.   promedio<- suma/4
+24.   mensaje x(999)[{a-z}{A-Z}]
+25.   Si(promedio>=0)or(promedio<=5)
+26.	 mensaje<-"Regular"
+27.   FinSi
+28.   Si(promedio>=5.1)or(promedio<=8)
+29.	 mensaje<-"Bueno"
+30.   FinSi
+31.   Si(promedio>=8.1)or(promedio<=9)
+32.	 mensaje<-"Muy Bueno"
+33.   FinSi
+34.   Si(promedio>=9.1)or(promedio<=10)
+35.	 mensaje<-"Sobresaliente"
+36.   FinSi
+37.   retorno mensaje
+38. FinFuncion promedio
+39. Fin		
